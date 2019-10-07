@@ -73,8 +73,8 @@
                       Maintain income<br>
                       in real terms:
                       <div class="tooltip"><i class="fas fa-info-circle fa-lg"></i>
-                        <span class="tooltiptext small">
-                          TBC
+                        <span class="tooltiptext" style="text-transform: none;">
+                          By ticking this box you are adding annual increases to the cost of living.
                         </span>
                       </div>
                       <input ng-model="realterms" ng-true-value="'yes'" ng-false-value="'no'"  type="checkbox">
@@ -115,6 +115,11 @@
           <div class="fixFlexibleIncome font07">
             <div class="text-left col-xs-6">
                <input ng-model="fixIncomeLevel" ng-true-value="'yes'" ng-false-value="'no'"  type="checkbox">&nbsp; Show target income from outset
+               <div class="tooltip"><i class="fas fa-info-circle fa-lg"></i>
+                  <span class="tooltiptext">
+                    By ticking this box you are bridging early retirement by redistributing your pension fund from later retirement.
+                  </span>
+                </div>
             </div>
             <div class="text-right col-xs-6">&nbps;</div>
           </div>
