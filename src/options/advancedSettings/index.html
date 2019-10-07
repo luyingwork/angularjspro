@@ -104,6 +104,10 @@
             <div class="paddingBottom20 row">
               <div class="col-xs-12 font09">
               <hr>
+              <div class="text-center" ng-controller="ModalController as ModalCtrl" ng-init="init(appData.branding)">
+                <a ng-click="ModalCtrl.open('siemenropnote', 'lg')" class="button bgcolorMain fontHederColor">Click here for detailed points on the methodology, assumptions and limitations</a>
+              </div>
+              <br/>
             <b>The figures in this tool do not include any tax charges that arise as a result of exceeding the pension allowances:</b><br>
             &middot; <i>The Annual Allowance is a restriction on contributions and is currently £40,000</i><br>
             &middot; <i>It may reduce to a minimum of £10,000 if your adjusted annual income exceeds £150,000</i><br>
